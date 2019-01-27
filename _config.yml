@@ -10,21 +10,20 @@ about:
   content:
       left: bout me
       right: bout future
-  interests:
-    header: Languages
-    content:
-      left:
-        list:
-          - item: Java
-          - item: JavaScript
-      center:
-        list:
-          - item: HTML
-          - item: CSS
-      right:
-        list:
-          - item: C++
-          - item: ActionScript
+  header: Languages
+  content:
+    left:
+      list:
+        - item: Java
+        - item: JavaScript
+    center:
+      list:
+        - item: HTML
+        - item: CSS
+    right:
+      list:
+        - item: C++
+        - item: ActionScript
 
 # Google webmaster tools
 google_verify:

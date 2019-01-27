@@ -1,18 +1,47 @@
-_site
-.sass-cache
+# Jekyll ignores
 .jekyll-metadata
-yarn.lock
+.sass-cache/
+_site/
+_drafts/
+_data/tokens.yml
+_posts/1*
+_posts/2*
+unique/
+_site.env
+_my/
+_includes/_my
+_layouts/_my
 Gemfile.lock
-package-lock.json
-node_modules/
 
-### macOS ###
-*.DS_Store
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
 
 # Thumbnails
 ._*
@@ -24,7 +53,6 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -32,3 +60,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# VSCode
+.vscode/

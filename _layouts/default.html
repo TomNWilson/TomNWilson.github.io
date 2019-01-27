@@ -1,27 +1,12 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
-    {% include blog_grid.html %}
+<html lang="en">
+{% include head.html %}
+<body>
 
-    {% if site.contact == "static" %}
-      {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-      {% include contact_disqus.html %}
-    {% else %}
-      {% include contact.html %}
-    {% endif %}
-
-    {% include footer.html %}
-    {% include portfolio_modals.html %}
-    {% include js.html %}
-
-    {% if site.google_analytics_tracker_id %}
-      {% include analytics.html %}
-    {% endif %}
-    </body>
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
+</body>
 </html>
